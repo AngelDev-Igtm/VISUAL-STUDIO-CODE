@@ -98,4 +98,4 @@ DESPUÉS (Entrega):
 - Soporte para facturación electrónica (según SUNAT).
 - Dashboard con KPIs financieros para el dueño.
 - Reconocimiento facial o biométrico para login seguro.
-
+- Guardado automático.
