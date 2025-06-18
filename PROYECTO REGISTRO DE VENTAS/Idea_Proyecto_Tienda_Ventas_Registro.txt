@@ -1,0 +1,101 @@
+
+Nombre del Proyecto: Sistema de Registro de Ventas para Tienda/Bodega
+
+---
+
+🎯 OBJETIVO PRINCIPAL:
+Desarrollar una aplicación web/escritorio para registrar productos, compras y ventas diarias, llevar el control de fiados, generar estadísticas mensuales de ventas, y proteger el sistema mediante inicio de sesión seguro. Su uso está pensado principalmente en PC/laptops con Windows 10 u 11, aunque se busca conexión futura con smartphones (para funciones limitadas como pagos y consultas de deudas).
+
+---
+
+🧩 FUNCIONALIDADES PRINCIPALES:
+
+1. 🧾 Registro de productos (nombre, categoría, precio, stock inicial, stock mínimo).
+2. 📥 Registro de compras al proveedor.
+3. 📤 Registro de ventas diarias (producto, cantidad, precio, total, hora, usuario).
+4. 📊 Generación de gráficos mensuales de ventas (lineales o de barras).
+5. 🔐 Inicio de sesión con control de roles (admin, vendedor, visualizador).
+6. 💳 Registro de fiados (cliente, producto, cantidad, fecha, deuda total, fecha límite).
+7. 📱 Conectividad futura con celulares (acceso a deudas y pagos).
+8. ✅ Control de stock automático (alerta si baja del mínimo).
+9. 🔄 Backups automáticos diarios/semanales a la nube/local.
+10. 🔔 Notificaciones automáticas vía WhatsApp (recordatorio de deuda, baja de stock).
+11. 💼 Control multiusuario con historial de acciones por usuario.
+12. 💵 Integración de pagos QR/Yape/Plin (fase futura).
+13. 📂 Exportación de reportes a PDF/Excel.
+14. 📅 Historial de ventas, compras y fiados por rango de fechas.
+15. 📱 Atencion al cliente o Soporte.
+
+---
+
+💾 TECNOLOGÍAS RECOMENDADAS:
+
+Frontend (UI):
+- HTML5 + CSS3 + JavaScript
+- Framework visual sugerido: React.js (por comunidad y escalabilidad)
+
+Backend:
+- C# con ASP.NET Core
+- Autenticación con ASP.NET Identity
+
+Base de Datos:
+- SQL Server Express (opcional: SQLite si buscas algo portátil)
+
+Otras herramientas:
+- Chart.js o Syncfusion (gráficos)
+- Twilio API para WhatsApp
+- CronJobs para backups automáticos
+- API QR de Yape/Plin para integración de pagos
+
+---
+
+📁 MODELO DE BASE DE DATOS (Resumen):
+
+- Tabla Productos
+- Tabla Compras
+- Tabla Ventas
+- Tabla Clientes
+- Tabla Fiados
+- Tabla Usuarios
+- Tabla Roles
+- Tabla Historial / Logs
+
+---
+
+📑 DOCUMENTACIÓN NECESARIA (ANTES Y DESPUÉS):
+
+ANTES (Planeamiento):
+- Documento de Requisitos (funcionalidades, usuarios, flujos)
+- Diagrama de Casos de Uso
+- Diagrama Entidad-Relación (base de datos)
+- Wireframes o bocetos de la UI
+- Cronograma de desarrollo
+
+DESPUÉS (Entrega):
+- Manual Técnico (instalación, tecnologías, dependencias)
+- Manual de Usuario (cómo usar cada módulo)
+- Documentación API (si tiene conectividad externa)
+- Acuerdo de Soporte y Mantenimiento
+
+---
+
+💡 RECOMENDACIONES EXTRA:
+
+- Utiliza Git + GitHub para control de versiones.
+- Realiza pruebas con usuarios reales antes de lanzarlo.
+- Considera usar Electron si deseas una app instalable en PC.
+- Asegura los datos cifrando contraseñas y usando backups.
+- Haz un plan de precios por funciones (ej. versión básica y versión premium).
+- Planea escalar a una app móvil con Flutter o .NET MAUI en el futuro.
+- Deja bien claro que no se necesita internet para registrar ventas (modo offline con sincronización futura).
+
+---
+
+🧠 VISIÓN A FUTURO:
+
+- Versión móvil para clientes (consulta de deudas, historial de compras, pagos).
+- Integración con lectores de código de barras.
+- Soporte para facturación electrónica (según SUNAT).
+- Dashboard con KPIs financieros para el dueño.
+- Reconocimiento facial o biométrico para login seguro.
+
