@@ -24,7 +24,7 @@ Desarrollar una aplicación web/escritorio para registrar productos, compras y v
 12. 💵 Integración de pagos QR/Yape/Plin (fase futura).
 13. 📂 Exportación de reportes a PDF/Excel.
 14. 📅 Historial de ventas, compras y fiados por rango de fechas.
-15. 📱 Atencion al cliente o Soporte.
+15. 📱 Atencion al cliente o Soporte tecnico.
 
 ---
 
